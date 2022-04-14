@@ -1,0 +1,87 @@
+.registro-container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registro-bg {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.registro-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;  
+    height: auto;
+    width: 500px;
+    background: white;
+    border-radius: 15px;
+}
+
+.span {
+    text-align: left;
+}
+
+.pilares {
+    display: flex;
+    padding: 20px;
+    gap: 60px;
+}
+
+.registro-box h3 {
+    font-weight: 300;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+.pilar p {
+    font-weight: 200;
+    padding: 10px 0;
+}
+
+.pilar input {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.719);
+}
+
+.pass-conditions {
+    font-size: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.336);
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.336);
+    color: black;
+    transition: all 0.3s;
+}

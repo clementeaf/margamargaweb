@@ -1,0 +1,499 @@
+.tienda-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+    height: 100%;
+}
+
+.tienda-content {
+    margin-top: 50px;
+    margin-bottom: 55px;
+    height: 605px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: white;
+}
+
+.tienda-content-up {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.busqueda-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.criterios-box {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    justify-content: space-between;
+}
+
+#criterios {
+    margin-top: 5px;
+    border: none;
+}
+
+.criterio-seleccionado {
+    display: flex;
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.area-criterio {
+    display: flex;
+    width: 370px;
+    height: 40px;
+}
+
+.criterio-busqueda {
+    font-weight: 200;
+}
+
+.barra-busqueda {
+    display: none;
+    border-radius: 15px;
+}
+
+.familias {
+    display: none;
+    border-radius: 15px; 
+}
+
+.btns {
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    gap: 20px;
+}
+
+.btn {
+    padding: 7px;
+    background-color: transparent;
+    box-shadow: 2px 2px 4px gray;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 200;
+}
+.btn:hover {
+    font-weight: 400;
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.estado-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.basket-length {
+    font-size: 18px;
+    margin-left: 7px;
+}
+.estado-compra:hover {
+    font-weight: 400;
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.tienda-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.384);
+    margin: 20px 0px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: auto;
+}
+
+.busqueda-detallada {
+    width: 270px;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.busqueda-avanzadada {
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    box-shadow: 3px 3px 3px gray;
+    cursor: pointer;
+}
+.busqueda-avanzadada:hover{
+    box-shadow: 1px 1px 1px gray;
+    transition: 0.5s;
+}
+
+#busqueda-detallada-nombre {
+    margin: 10px 0px; 
+}
+
+#busqueda-detallada-marca {
+    margin: 10px 0px; 
+}
+
+#busqueda-detallada-codigo {
+    margin: 10px 0px; 
+}
+
+.input-detalle {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.cards-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 400px;
+    width: 800px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+}
+
+.filtros-busqueda {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.criterio {
+    display: none;
+    height: 20px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.criterio-input {
+    width: 225px;
+    margin-left: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+
+
+/***************** Crads **********************/
+
+.Card {
+    height: auto;
+    width: 200px;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgba(241, 241, 241, 0.404);
+    box-shadow: 3px 3px 5px rgba(129, 129, 129, 0.128);
+    border-radius: 15px;
+}
+
+.Card-up {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.option-icons {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    gap: 15px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.Card-title {
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Card-Line {
+    margin: 5px 10px ;
+    height: 1px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.192);
+}
+
+.Card-img {
+    height: 150px;
+    margin: 10px 30px;
+}
+
+.description-container {
+    height: auto;
+    padding: 10px;
+    width: auto;
+}
+
+.descripción {
+    font-size: 10px;
+    margin-left: 9px;
+}
+
+/* Detail Card */
+.detail-card-bg {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100vw;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.787);
+}
+
+.detail-active {
+    display: flex;
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.up-content {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.up-cerrar {
+    cursor: pointer;
+}
+
+.detail-line {
+    height: 1px;
+    width: 980px;
+    background: rgba(128, 128, 128, 0.145);
+    margin: 20px 0px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 800px;
+    /* background: rgba(128, 128, 128, 0.163); */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.middle-texts {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.texts-block {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+.marca-detail {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.marca-text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.middle-img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Carro de compras */
+
+.carro-de-compras-bg {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100vh;
+    width: 100%;
+    position: absolute; 
+    background: rgba(0, 0, 0, 0.678);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro-active {
+    display: flex;
+}
+
+.carro-de-compras {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background: white;  
+    border-radius: 10px;
+}
+
+.carro-cerrar {
+    cursor: pointer;
+}
+
+.imagen-elem-seleccionado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carro-compras-img {
+    height: 250px;
+}
+
+
+
+@media screen and (max-width : 376px) {
+    .tienda-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .tienda-content {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 0px;
+        margin-top: 120px;
+    }
+
+    .busqueda-tool
+
+    .busqueda {
+        display: flex;
+        margin: 0px;
+        height: 40px;
+        padding: 0px 10px;
+        width: 90%;
+        border-radius: 20px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.432);
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .Card {
+        height: auto;
+        width: 200px;
+        padding: 15px;
+        margin: 20px 0px;
+    }
+
+}
